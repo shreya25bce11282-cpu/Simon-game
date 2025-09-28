@@ -1,8 +1,10 @@
+/* Center all text */
 body
 {
     text-align: center;
 }
 
+/* Style for all buttons */
 .btn
 {
     height:200px;
@@ -12,12 +14,14 @@ body
     margin:2.5rem;
 }
 
+/* Container to hold the buttons side by side */
 .btn-container
 {
     display: flex;
     justify-content: center;
 }
 
+/* Individual button colors */
 .yellow
 {
     background-color: rgb(255, 145, 0);
@@ -38,11 +42,13 @@ body
     background-color: rgba(255, 0, 191, 0.555);
 }
 
+/* Flash effect for game sequence */
 .gameflash
 {
     background-color: white;
 }
 
+/* Flash effect for user clicks */
 .userFlash
 {
     background-color: green;
